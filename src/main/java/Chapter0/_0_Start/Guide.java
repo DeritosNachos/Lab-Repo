@@ -13,7 +13,7 @@ public class Guide {
      *
      * This is a variable. Currently it is scoped to the entire object, so it can be accessed
      * by any of its methods. It is an int, one of our primitive types (most basic form
-     * of information, like characters or booleans). Its are whole numbers. We have assigned it
+     * of information, like characters or booleans). Ints are whole numbers. We have assigned it
      * the name id, since we could use this variable to tell different Guide objects apart.
      *
      */

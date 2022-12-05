@@ -10,6 +10,12 @@ public class EvenOrOdd {
      * @return a String "Even" if n is even, and "Odd" of in is odd.
      */
     public String decide(int n){
-        return "";
+        if (n % 2 == 0) {
+            return "Even";
+        }
+        else {
+            return "Odd";
+        }
+
     }
 }

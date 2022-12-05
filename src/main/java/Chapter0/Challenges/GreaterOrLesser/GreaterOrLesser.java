@@ -10,6 +10,14 @@ public class GreaterOrLesser {
      *          If neither is true, return "Equal".
      */
     public String decide(int a, int b){
-        return null;
+        boolean decided = a > b;
+        if (decided == true) {
+            return "Greater";
+        } else if (decided == false && a == b) {
+            return "Equal";
+        } else {
+            return "Lesser";
+        }
+
     }
 }

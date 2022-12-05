@@ -23,7 +23,7 @@ public class DropATable {
     public void dropTable(){
         try {
             //Write SQL logic here
-            String sql = "CHANGE ME";
+            String sql = "DROP TABLE songs";
 
             Connection connection = ConnectionUtil.getConnection();
 

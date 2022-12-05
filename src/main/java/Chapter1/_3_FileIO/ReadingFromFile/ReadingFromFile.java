@@ -1,6 +1,8 @@
 package Chapter1._3_FileIO.ReadingFromFile;
 
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Scanner;
 
 
 public class ReadingFromFile {
@@ -19,6 +21,11 @@ public class ReadingFromFile {
      *                                  lead to crashing our program.
      */
     public String read(String filepath) throws FileNotFoundException {
-        return null;
+        File newFile = new File(filepath);
+        Scanner readThis = new Scanner(newFile);
+
+        //while(readThis.hasNextLine()) {
+        String readOut = readThis.nextLine();
+        return readOut;
     }
 }

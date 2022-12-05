@@ -29,7 +29,7 @@ public class WriteToFileTest {
      * @throws FileNotFoundException
      */
     @Test
-    public void writeTest1() throws FileNotFoundException {
+    public void writeTest1() throws IOException {
         String filePath = "src/main/resources/Files/BlankFile.txt";
         String text = "success";
         wf.write(filePath, text);

@@ -12,7 +12,7 @@ package Chapter2._1_OOP.Constructors;
  **/
 public class Player {
     public String playerName;
-    public int level;
+    public int level = 1;
 
     /**
      * this.playerName should be set to playerName.
@@ -23,7 +23,7 @@ public class Player {
      * @param playerName the name of the player to be created.
      */
     public Player(String playerName){
-
+            this.playerName = playerName;
     }
 
     /**
@@ -40,7 +40,8 @@ public class Player {
      * @param level the starting level of the player to be created.
      */
     public Player(String playerName, int level){
-
+            this.playerName = playerName;
+            this.level = level;
     }
 
 }
