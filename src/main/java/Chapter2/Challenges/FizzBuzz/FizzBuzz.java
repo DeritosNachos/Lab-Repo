@@ -13,6 +13,20 @@ public class FizzBuzz {
      * divisible by both, return 'FizzBuzz'. If none of these are true, return a blank string "".
      */
     public String FizzBuzzGen(int n){
+        String Fizz = "Fizz";
+        String Buzz = "Buzz";
+
+        if (n % 3 == 0 && n % 5 == 0){
+            return (Fizz + Buzz);
+        } else if (n % 3 == 0) {
+            return Fizz;
+        } else if (n % 5 == 0) {
+            return Buzz;
+        }
+
+        else {
         return "";
+        }
+
     }
 }

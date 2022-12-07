@@ -11,6 +11,17 @@ public class Contains {
      * @return true if arr contains target, false otherwise.
      */
     public boolean arrayContains(int[] arr, int target){
-        return false;
+        int length = arr.length;
+        int iters = 0;
+
+        while (iters < length) {
+            if(target == arr[iters]) {
+                return true;
+            } else {
+                ++iters;
+            }
+        }
+
+            return false;
     }
 }

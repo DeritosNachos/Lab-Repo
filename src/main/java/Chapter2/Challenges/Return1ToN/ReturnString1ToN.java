@@ -12,6 +12,13 @@ public class ReturnString1ToN {
      * @return a string of all numbers between 1 to N.
      */
     public String returnNumber(int n){
-        return "";
+        StringBuilder ans = new StringBuilder();
+
+        for (int i = 1; i <= n; i++) {
+            ans.append(i + " ");
+        }
+
+
+        return ans.toString();
     }
 }

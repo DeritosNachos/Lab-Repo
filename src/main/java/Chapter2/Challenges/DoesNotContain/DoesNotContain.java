@@ -9,6 +9,19 @@ public class DoesNotContain {
      * @return true if arr does not contain target. false otherwise.
      */
     public boolean arrayDoesNotContain(int[] arr, int target){
-        return false;
+        int length = arr.length;
+        int iters = 0;
+
+        while (iters < length) {
+            if(target == arr[iters]) {
+                return false;
+            } else {
+                ++iters;
+            }
+        }
+
+
+
+        return true;
     }
 }

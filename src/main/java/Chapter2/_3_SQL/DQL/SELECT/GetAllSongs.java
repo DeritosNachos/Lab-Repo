@@ -37,7 +37,7 @@ import java.util.List;
 public class GetAllSongs {
     public List<Song> retrieveAllSongsFromTable(){
         //Write SQL logic here
-        String sql = "CHANGE ME";
+        String sql = "SELECT * FROM songs";
 
         List<Song> songs = new ArrayList<>();
         try {

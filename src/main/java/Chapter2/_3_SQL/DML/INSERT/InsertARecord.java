@@ -25,7 +25,7 @@ public class InsertARecord {
      * */
     public boolean addSong(){
         //Write SQL logic here
-        String sql = "INSERT INTO songs";
+        String sql = "INSERT INTO songs\n" + " values ('Title', 'Artist');";
 
         try {
             Connection connection = ConnectionUtil.getConnection();
