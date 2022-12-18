@@ -13,7 +13,7 @@ public class SimpleStringMethods {
      * @return the length of string s.
      */
     public int length(String s){
-        return 0;
+        return s.length();
     }
 
     /**
@@ -23,7 +23,7 @@ public class SimpleStringMethods {
      * @return the character of String s that is located at position n.
      */
     public char charAt(String s, int n){
-        return ' ';
+        return s.charAt(n);
     }
 
     /**
@@ -35,7 +35,17 @@ public class SimpleStringMethods {
      * @return the index of the first occurence of c within s.
      */
     public int indexOf(String s, char c){
-        return 0;
+        //char[] convertString = s.toCharArray();
+        //int index = -1;
+        //int lengthOfString = s.length();
+        //for (int i = 0; i < lengthOfString; i++) {
+            //if (s.charAt(i) == c ) {
+                //index = indexOf(s, c);
+            //}
+        //}
+        //System.out.println(index);
+
+        return s.indexOf(c);
     }
 
 }

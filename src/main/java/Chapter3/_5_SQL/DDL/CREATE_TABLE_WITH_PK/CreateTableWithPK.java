@@ -52,7 +52,10 @@ public class CreateTableWithPK {
      */
     public void createSurrogateKey(){
         //Write SQL statement here
-        String sql = "CHANGE ME";
+        String sql = "CREATE TABLE songs (" +
+                "id SERIAL PRIMARY KEY," +
+                "title varchar(100)," +
+                "artist varchar(100));";
 
         try {
             Connection connection = ConnectionUtil.getConnection();

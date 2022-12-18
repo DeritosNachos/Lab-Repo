@@ -48,7 +48,7 @@ public class FilteringQueries {
      */
     public List<User> filter(){
         //Write SQL statement here
-        String sql = "CHANGE ME";
+        String sql = "SELECT * FROM users WHERE lastname = 'Smith'";
 
 
         List<User> users = new ArrayList<>();

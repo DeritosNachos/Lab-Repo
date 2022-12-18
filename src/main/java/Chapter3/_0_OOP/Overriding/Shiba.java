@@ -14,5 +14,8 @@ public class Shiba extends Dog{
 //      all dogs are super
         super();
     }
+    public String noise(){
+        return "Bark";
+    }
 
 }

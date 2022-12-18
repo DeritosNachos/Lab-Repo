@@ -35,7 +35,7 @@ public class UpdateARecord {
      */
     public void problem1(){
         //Write SQL statement here
-        String sql = "CHANGE ME";
+        String sql = "UPDATE users SET lastname = 'Rush' WHERE firstname = 'Alexa'";
 
         try {
             Connection connection = ConnectionUtil.getConnection();

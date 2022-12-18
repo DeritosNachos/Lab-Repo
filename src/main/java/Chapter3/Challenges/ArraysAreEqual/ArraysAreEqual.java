@@ -1,6 +1,12 @@
 package Chapter3.Challenges.ArraysAreEqual;
+
+import java.util.Arrays;
+
 //see test cases.
 public class ArraysAreEqual {
+
+    private int[] a;
+    private int[] b;
     /**
      * check if two arrays are equal to each other.
      * a==b will not work, because even though the arrays may be equivalent, they can occupy different positions in
@@ -10,6 +16,9 @@ public class ArraysAreEqual {
      * @return true if the values of a are equal to the values of b.
      */
     public boolean equal(int[] a, int[] b){
-        return false;
+
+        return Arrays.equals(a, b);
     }
+
+
 }

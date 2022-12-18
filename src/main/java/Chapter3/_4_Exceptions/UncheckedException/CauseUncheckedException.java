@@ -10,6 +10,7 @@ public class CauseUncheckedException {
      * For this challenge, I recommend creatively causing such an exception rather than using the 'throws' keyword.
      */
     public void throwUncheckedException(){
+        throw new RuntimeException();
 
     }
 }

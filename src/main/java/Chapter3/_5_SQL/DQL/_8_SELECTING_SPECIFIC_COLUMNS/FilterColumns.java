@@ -38,7 +38,7 @@ public class FilterColumns {
      */
     public List<User> problem1(){
         //Write SQL statement here
-        String sql = "CHANGE ME";
+        String sql = "SELECT firstname FROM users";
 
         List<User> users = new ArrayList<>();
         try {
@@ -64,7 +64,7 @@ public class FilterColumns {
      */
     public List<User> problem2(){
         //Write SQL statement here
-        String sql = "CHANGE";
+        String sql = "SELECT lastname FROM users";
 
         List<User> users = new ArrayList<>();
         try {
@@ -90,7 +90,7 @@ public class FilterColumns {
      */
     public List<User> problem3(){
         //Write SQL statement here
-        String sql = "CHANGE ME";
+        String sql = "SELECT firstname, lastname FROM USERS";
 
         List<User> users = new ArrayList<>();
         try {

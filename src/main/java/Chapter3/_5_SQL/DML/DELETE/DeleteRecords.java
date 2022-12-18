@@ -36,7 +36,7 @@ public class DeleteRecords {
      */
     public void delete(){
         //Write SQL statement here
-        String sql = "CHANGE ME";
+        String sql = "DELETE FROM users WHERE firstname = 'Steve' AND lastname = 'Jones'";
 
         try {
             Connection connection = ConnectionUtil.getConnection();
