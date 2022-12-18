@@ -5,6 +5,15 @@ public class GetMax {
      * @return the largest value in arr.
      */
     public int max(int[] arr){
-        return -1;
+        int maxNum = arr[0];
+        for(int i = 0; i < arr.length; i++) {
+            if(maxNum < arr[i]) {
+                maxNum = arr[i];
+            }
+
+        }
+
+
+        return maxNum;
     }
 }
