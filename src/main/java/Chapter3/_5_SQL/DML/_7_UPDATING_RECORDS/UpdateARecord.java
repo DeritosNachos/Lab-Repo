@@ -55,7 +55,7 @@ public class UpdateARecord {
      */
     public void problem2(){
         //Write SQL statement here
-        String sql = "CHANGE ME";
+        String sql = "UPDATE users SET firstname = 'Chad', lastname = 'Irving' WHERE id = 4;";
 
         try {
             Connection connection = ConnectionUtil.getConnection();
@@ -76,7 +76,7 @@ public class UpdateARecord {
      */
     public void problem3(){
         //Write SQL statement here
-        String sql = "CHANGE ME";
+        String sql = "UPDATE users SET firstname = 'Steven' WHERE firstname = 'Steve';";
 
         try {
             Connection connection = ConnectionUtil.getConnection();
