@@ -9,6 +9,7 @@ public class Exponent {
      * @return the exponent of base to the exp power.
      */
     public double getExp(double base, int exp){
-        return 0;
+
+        return Math.pow(base, exp);
     }
 }

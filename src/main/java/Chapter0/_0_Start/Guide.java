@@ -49,7 +49,7 @@ public class Guide {
      *          passed into this method.
      */
     public String guideMethod(String message){
-        return "Success from guide object "+ id+"! it says: " + message ;
+        return "Success from guide object "+ id + "! it says: " + message ;
     }
     /**
      *  Now, locate the test class and run its test. It should pass, revealing green checkmarks in your run window.
