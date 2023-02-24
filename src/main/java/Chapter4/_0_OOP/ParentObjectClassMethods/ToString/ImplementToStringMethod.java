@@ -31,4 +31,13 @@ public class ImplementToStringMethod {
         this.b = b;
         this.c = c;
     }
+
+    @Override
+    public String toString() {
+        return "ImplementToStringMethod{" +
+                "a=" + a +
+                ", b=" + b +
+                ", c=" + c +
+                '}';
+    }
 }

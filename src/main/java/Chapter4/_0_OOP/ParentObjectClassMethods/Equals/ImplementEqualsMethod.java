@@ -1,5 +1,7 @@
 package Chapter4._0_OOP.ParentObjectClassMethods.Equals;
 
+import java.util.Objects;
+
 /**
  * The test cases for this class use a method called .equals which isn't written anywhere in this class. How?
  * All objects have a method called .equals() - it is inherited from the Object class, which is actually the parent
@@ -33,4 +35,16 @@ public class ImplementEqualsMethod {
         this.c = c;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ImplementEqualsMethod that = (ImplementEqualsMethod) o;
+        return a == that.a && b == that.b && c == that.c;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(a, b, c);
+    }
 }
