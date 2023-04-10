@@ -14,29 +14,16 @@ public class Average {
         int sum = sum(nums);
 
 
-<<<<<<< HEAD
+
         return (double) sum / (double)nums.length ;
     }
-    public int sum(int[] arr){
-        int sum = 0;
-        for(int i = 0; i < arr.length; i++) {
-            sum += arr[i];
-        }
 
-
-        return sum;
-=======
-
-        return (double)sum/(double) nums.length ;
->>>>>>> 4ea1baa667a46034d4b759a8eda62c7599735095
-    }
 
     public int sum(int[] arr){
         int sum = 0;
-        for(int i = 0; i < arr.length; i++) {
-            sum += arr[i];
+        for(int number: arr) {
+            sum += number;
         }
-
 
         return sum;
     }

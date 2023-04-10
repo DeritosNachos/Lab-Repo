@@ -15,11 +15,11 @@ public class GenericExercise<T> {
      * @param in an Object that will be of type T at runtime.
      */
     public void loadGenericItem(T in){
-<<<<<<< HEAD
+
             this.data = in;
-=======
+
         this.data = in;
->>>>>>> 4ea1baa667a46034d4b759a8eda62c7599735095
+
     }
     /**
      * @return T data. The type of Data will again be set when the GenericExercise object is created (at runtime).

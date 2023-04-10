@@ -10,15 +10,15 @@ public class GetMax {
             if(maxNum < arr[i]) {
                 maxNum = arr[i];
             }
-<<<<<<< HEAD
+
 
         }
 
 
-=======
+         return maxNum;
         }
 
->>>>>>> 4ea1baa667a46034d4b759a8eda62c7599735095
-        return maxNum;
-    }
+
+
 }
+
