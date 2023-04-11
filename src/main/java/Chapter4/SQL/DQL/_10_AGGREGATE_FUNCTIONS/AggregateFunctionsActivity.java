@@ -53,7 +53,7 @@ public class AggregateFunctionsActivity {
          */
 
         //Write your statement below:
-        String sql = "CHANGE ME";
+        String sql = "SELECT AVG(salary) FROM employees;";
 
         //The following code will execute your statement on the database
         double average = 0.0;
@@ -80,7 +80,7 @@ public class AggregateFunctionsActivity {
          */
 
         //Write your statement below:
-        String sql = "CHANGE ME";
+        String sql = "SELECT COUNT(last_name) FROM employees WHERE last_name = 'Smith';";
 
         //The following code will execute your statement on the database
         int count = 0;

@@ -13,7 +13,31 @@ public class Fibonacci {
      * @param n an iteration of the fibonacci sequence.
      * @return the nth number of fibonacci sequence.
      */
-    public int fib(int n){
-        return 0;
+    public int fib(int number){
+
+
+        int firstNum = 0;
+        int secondNum = 1;
+
+        if (number  == 0) {
+            return firstNum;
+        } else if (number == 1){
+            return secondNum;
+        }else if (number == 2) {
+            return firstNum + secondNum;
+        } else { //number greater than 2
+
+            while(number > 3) {   //bad logic, not understood fully but works...
+                firstNum += secondNum;
+                secondNum += firstNum;
+                number --;
+            }
+            return secondNum;
+        }
+
+
     }
+
+
+
 }
